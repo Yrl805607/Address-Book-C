@@ -1,16 +1,20 @@
 # Address Book Management System in C
 
-A console-based application written in C to manage contact information such as names, phone numbers, and email addresses. The project features full CRUD operations (Create, Read, Update, Delete), multi-attribute searching, sorting, input validation, and CSV file persistence.
+A console-based application written in C to manage contact information such as names, phone numbers, and email addresses. The project features full operations for creating, reading, updating, and deleting contacts, along with multi-attribute searching, sorting, input validation, and CSV file persistence.
+
+---
 
 ## Features
 
-* Add Contacts: Add new contacts with automatic validation for names, phone numbers (10 digits), and emails (@ and .com checks). Prevents duplicate phone numbers and emails.
-* Search Contacts: Search for existing contacts by Name, Phone Number, or Email (case-insensitive search).
+* Add Contacts: Add new contacts with validation for names, phone numbers (10 digits), and emails (@ and .com checks). Prevents duplicate phone numbers and emails.
+* Search Contacts: Search for existing contacts by Name, Phone Number, or Email using case-insensitive search.
 * Edit Contacts: Update existing contact details after selecting them from search results.
 * Delete Contacts: Remove a contact from memory with user confirmation.
-* Sort and Display: List all contacts sorted alphabetically by Name, Phone Number, or Email using Bubble Sort.
+* Sort & Display: List all contacts sorted alphabetically by Name, Phone Number, or Email using Bubble Sort.
 * File Persistence: Load saved contacts on startup from contact.csv and save updated records back to the CSV file upon exiting.
-* Dummy Data Auto-Load: Includes a helper module to easily populate sample data for testing.
+* Dummy Data Auto-Load: Includes a helper module to populate sample data for testing.
+
+---
 
 ## File Structure
 
@@ -19,6 +23,8 @@ A console-based application written in C to manage contact information such as n
 * file.c / file.h - CSV file handling for loading and saving data persistently.
 * populate.c / populate.h - Module to pre-load sample contacts for quick testing.
 * contact.csv - Data storage file.
+
+---
 
 ## How to Compile and Run
 
@@ -32,10 +38,12 @@ A console-based application written in C to manage contact information such as n
 3. Run the application:
    ./address_book
 
-## Concepts Applied
+---
+
+## Technical Concepts Applied
 
 * C Data Structures (struct, arrays of structures)
 * File I/O (fopen, fscanf custom parsing, fprintf)
-* Pointers and Memory Management
+* Pointers and Memory Handling
 * Modular C Programming (.c and .h split)
-* String operations and pattern matching (strcmp, strcasestr, strstr, strchr)
+* String manipulation and parsing (strcmp, strcasestr, strstr, strchr)
