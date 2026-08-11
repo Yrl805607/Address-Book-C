@@ -1,6 +1,6 @@
 # Address Book Management System in C
 
-A console-based application written in C to manage contact information such as names, phone numbers, and email addresses. The project features full operations for creating, reading, updating, and deleting contacts, along with multi-attribute searching, sorting, input validation, and CSV file persistence.
+A console-based application written in C to manage contact information such as names, phone numbers, and email addresses. The project features full CRUD operations (Create, Read, Update, Delete), multi-attribute searching, sorting, input validation, and CSV file persistence.
 
 ---
 
